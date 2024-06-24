@@ -1,0 +1,41 @@
+.projectContainer{
+    width: 80%;
+    margin-inline:auto;
+}
+.container{
+    gap: 1rem;
+}
+.container, .linksContainer{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.container{
+flex-direction: column;
+}
+.linksContainer{
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.seeDemo{
+    background: #010101;
+    color: #fafafa;
+    font-weight: bold;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+.seeRepo{
+    color: #010101;
+}
+@media (min-width: 768px){
+    .container{
+        flex-direction: row;
+        }
+}
