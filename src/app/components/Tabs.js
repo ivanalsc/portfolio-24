@@ -121,6 +121,34 @@ const Projects = ({ tabs, font }) => {
         </div></Link>
         </div>
         <div className={styles.projectCard}>
+        <Link href="https://ecommerce-delta-one-89.vercel.app/">
+      <Image 
+              src="/jewelery.png"
+              width={300}
+              height={150}
+              alt="Ecommerce concept"
+            />
+        
+        <h3>Concepto ecommerce</h3>
+        <div className={font.className}>
+
+        <div className={styles.projectStack}>
+            <span className={styles.tag}>Next.js</span>
+            <span className={styles.tag}>CSS</span>
+            <span className={styles.tag}>Tailwind CSS</span>
+            <span className={styles.tag}>Shadcn</span>
+
+
+
+
+        </div>
+        </div>
+       
+       <div className={font.className}>
+        <p className={styles.seeMore} >Ver demo <svg height="12" viewBox="0 0 21 21" width="12" xmlns="http://www.w3.org/2000/svg"><g fill="none" fillRule="evenodd" stroke="currentColor" stroklinecap="round" strokeLinejoin="round" transform="translate(4 6)"><path d="m9.5.497 4 4.002-4 4.001"/><path d="m.5 4.5h13"/></g></svg></p>
+        </div></Link>
+        </div>
+        <div className={styles.projectCard}>
         <Link href="https://landing-concept.vercel.app/">
       <Image 
               src="/burger.png"
