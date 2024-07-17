@@ -137,6 +137,8 @@ const Projects = ({ tabs, font }) => {
             <span className={styles.tag}>CSS</span>
             <span className={styles.tag}>Tailwind CSS</span>
             <span className={styles.tag}>Shadcn</span>
+            <span className={styles.tag}>Framer Motion</span>
+
 
 
 
